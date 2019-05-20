@@ -4,7 +4,8 @@
 
 
 #### To Activate
-git clone 
+git clone git@github.com:wix-a/page-cluster.git
+cd page-cluster
 yarn
 
   
