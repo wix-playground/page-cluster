@@ -1,0 +1,35 @@
+{
+  "name": "page-cluster",
+  "version": "1.0.0",
+  "description": "convert wix site into spreadsheets",
+  "main": "src/index.js",
+  "scripts": {
+    "cluster": "node -r esm src/index.js",
+    "cluster-sample": "node -r esm src/index.js -site:shaiby4.wixsite.com/samples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wix-a/page-cluster.git"
+  },
+  "keywords": [
+    "wix",
+    "cluster",
+    "convert",
+    "data",
+    "extract"
+  ],
+  "author": "Shai Ben-Yehuda shaiby@wix.com",
+  "bugs": {
+    "url": "https://github.com/wix-a/page-cluster/issues"
+  },
+  "homepage": "https://github.com/wix-a/page-cluster#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "json2csv": "^4.5.1",
+    "jsonpath": "^1.0.1",
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.6.0",
+    "rxjs": "^6.5.2",
+    "rxjs-operators": "^1.1.0"
+  }
+}
